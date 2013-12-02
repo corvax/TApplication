@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="note_enter_note">Enter a note...</string>
+    <string name="action_new_note">New note</string>
+    <string name="action_done">Done</string>
+    <string name="title_activity_note">Text Note</string>
+
+
+</resources>
