@@ -14,14 +14,14 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 
     // database access
-    protected static NotesDataContract dataContract;
+//    protected static NotesDataContract dataContract;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // create helpers
-        dataContract = new NotesDataContract();
+//        dataContract = new NotesDataContract();
 
         setContentView(R.layout.activity_main);
 
