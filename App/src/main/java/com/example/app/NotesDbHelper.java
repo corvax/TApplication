@@ -31,11 +31,11 @@ public class NotesDbHelper extends SQLiteOpenHelper {
     // SQL DML Quries
     private static final String SQL_CREATE_TABLE =
             "CREATE TABLE " + NotesEntry.TABLE_NAME + "("+
-                    NotesEntry._ID +                 TYPE_INTEGER + " PRIMARY KEY AUTOINCREMENT" + COLUMN_SEP +
-                    NotesEntry.COLUMN_NAME_NOTE_ID + TYPE_TEXT +                     COLUMN_SEP +
-                    NotesEntry.COLUMN_NAME_TITLE +   TYPE_TEXT +                     COLUMN_SEP +
-                    NotesEntry.COLUMN_NAME_TEXT +    TYPE_TEXT +                     COLUMN_SEP +
-                    NotesEntry.COLUMN_NAME_LAST_MODIFIED + TYPE_TEXT + ")";
+                    NotesEntry._ID                 + " " + TYPE_INTEGER + " PRIMARY KEY AUTOINCREMENT" + COLUMN_SEP +
+                    NotesEntry.COLUMN_NAME_NOTE_ID + " " + TYPE_TEXT +                     COLUMN_SEP +
+                    NotesEntry.COLUMN_NAME_TITLE   + " " + TYPE_TEXT +                     COLUMN_SEP +
+                    NotesEntry.COLUMN_NAME_TEXT    + " " + TYPE_TEXT +                     COLUMN_SEP +
+                    NotesEntry.COLUMN_NAME_LAST_MODIFIED + " " + TYPE_TEXT + ")";
     private static final String SQL_DROP_TABLE =
             "DROP TABLE IF EXISTS " + NotesEntry.TABLE_NAME;
 
